@@ -45,7 +45,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
+helpMessage =""" [BOT Menu]
 
 􀔃􀅕red arrow right􏿿 Command Public
 [Me]       Cek Akun Sendiri
@@ -53,12 +53,12 @@ helpMessage =""" [R.A] BOT Menu V.3  􀔃􀄆red check mark􏿿
 [Bot?]     Cek Akun Bot
 [Id Group] Cek Id Group
 [Ginfo]    Group Info
-[Mid RA]   Cek All mid Bot
-[RA 1/2/3/4] Cek Mid Bot
+[Mid Punk]   Cek All mid Bot
+[Punk 1/2/3/4] Cek Mid Bot
 [Respon]   Cek Respon Bot
-[Speedbot] Cek Kecepatan Bot
+[SpeedPunk] Cek Kecepatan Bot
 [Up]       Fungsi Spam Chat
-[Tagall]   Mention Semua User
+[Punk @]   Mention Semua User
 [Banlist]  Cek List Akun Banned
 [Gn namagroup] Ganti Nama Group
 [Cancel] Cancel User Masuk Group
@@ -90,21 +90,14 @@ Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
 [No Joinned]
 -- Joinn on/off
 """
-KAC=[cl,ki,kk,kc,ks,ka,kb,ko,ke,ku]
-DEF=[ka,kb,ko,ke,ku]
+KAC=[cl,ki,kk]
+DEF=[cl,ki,kk]
 mid = cl.getProfile().mid
 Amid = ki.getProfile().mid
 Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = ks.getProfile().mid
-Emid = ka.getProfile().mid
-Fmid = kb.getProfile().mid
-Gmid = ko.getProfile().mid
-Hmid = ke.getProfile().mid
-Imid = ku.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"u33d60593ad472ed11e7907fb1daee6ae"]
-admin=["u33d60593ad472ed11e7907fb1daee6ae"]
+Bots=[mid,Amid,Bmid,"ufe520b8cd2f2c217e13317459e223d9d","u657f8ce366b428c37fc3ab6456b539b8"]
+admin=["u0f020150405fe23cace51efbbe590a76"]
 wait = {
     'contact':False,
     'autoJoin':True,
